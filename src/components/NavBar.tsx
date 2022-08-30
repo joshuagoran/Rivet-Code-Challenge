@@ -13,7 +13,7 @@ export default function NavBar() {
     <AppBar position="static">
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="home">
-          <Link to={`/`} style={{ color: 'inherit' }}>
+          <Link to={`/`} reloadDocument style={{ color: 'inherit' }}>
             <HomeIcon />
           </Link>
         </IconButton>
