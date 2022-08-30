@@ -1,0 +1,26 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-column-left {
+  flex: 50%;
+  max-width: 350;
+  margin-right: 2rem;
+}
+
+.profile-column-right {
+  flex: 50%;
+  margin-top: 2.5rem;
+}
+
+@media (max-width: 800px) {
+  .profile-column-left {
+    flex: 100%;
+    margin: 0 auto;
+  }
+  .profile-column-right {
+    flex: 100%;
+    margin-top: 0.5rem;
+  }
+}
