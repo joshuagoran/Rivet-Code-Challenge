@@ -8,7 +8,7 @@ export function Home({ profiles }) {
 
   const profileCards = profiles.map((profile: Profile) => <ProfileCard {...profile} key={profile.id} />)
 
-  return profiles ? (
+  return profiles.length ? (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>{profileCards}</Box>
   ) : (
     <CircularProgress />
