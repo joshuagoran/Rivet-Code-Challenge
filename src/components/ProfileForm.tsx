@@ -34,7 +34,6 @@ export default function ProfileForm(profile: Profile) {
               alt={`${profile.first_name} ${profile.last_name} profile image`}
               style={{ margin: '2rem auto', height: 'auto', width: '100%' }}
             />
-            )
           </div>
         ) : null}
         <div className="profile-column-right">
